@@ -1,0 +1,106 @@
+/* DropdownButton.css */
+
+/* Style for the form container */
+.form {
+  width: 100%;
+  max-width: 800px;
+  margin: 75px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the flex container */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for each form group */
+.form-group {
+  flex-basis: calc(33.33% - 25px);
+  margin-bottom: 25px;
+}
+
+/* Style for the form label */
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Style for the dropdown selects */
+.dropdown-select {
+  width: 100%;
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.dropdown-select:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+/* Style for the download button */
+.download-button {
+  width: 30%;
+  padding: 16px 32px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-5px) scale(1.05);
+}
+
+/* Style for the form button container */
+.form-button {
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 12px;
+}
+
+/* Add a gradient background to the form */
+.form {
+  background: linear-gradient(135deg, #f9f9f9 0%, #e3e3e3 100%);
+}
+
+
+/* Add a border to the dropdown selects on hover */
+.dropdown-select:hover {
+  border-color: #007bff;
+}
+
+/* Add a border to the download button on hover */
+.download-button:hover {
+  border: 2px solid #0056b3;
+}
+
+/* Add a custom arrow for the dropdown selects */
+.dropdown-select::after {
+  content: '\f0d7';
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #777;
+  font-size: 14px;
+}

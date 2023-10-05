@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+}
+
+.welcome {
+  text-align: center;
+  flex: 1;
+}
+
+.logout {
+  margin-left: 1000px; /* Adjust the spacing as needed */
+}

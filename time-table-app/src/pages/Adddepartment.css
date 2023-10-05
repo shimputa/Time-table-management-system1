@@ -1,0 +1,217 @@
+/* Adddepartment.css */
+/* Styles for the form and component */
+
+
+.addDep{
+  width: 13%;
+  margin: 5px 620px ;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.allot{
+  width: 13%;
+  margin: 5px 620px ;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  font-size: 11px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0px 0px 10px rgba(52, 152, 219, 0.5);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-button:hover {
+  color: #e74c3c;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.form-container {
+  position: relative;
+  width: 80%;
+  max-width: 400px;
+  max-height: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+/* Adddepartment.css */
+/* Styles for the select element */
+.select-style {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  appearance: none; /* Hide default dropdown arrow in modern browsers */
+  background-color: #ffffff;
+  background-image: linear-gradient(45deg, transparent 50%, #3498db 50%),
+    linear-gradient(135deg, #3498db 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.s;
+}
+
+.select-style:focus {
+  border-color: #3498db;
+  box-shadow: 0px 0px 10px rgba(52, 152, 219, 0.5);
+}
+
+/* DepartmentTable.css */
+
+.department-table {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.department-table h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.department-table th,
+.department-table td {
+  padding: 10px;
+  justify-content: space-betwee;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+/* Added styles for proper spacing */
+.table th:first-child,
+.table td:first-child {
+  padding-left: 20px;
+}
+
+.table th:last-child,
+.table td:last-child {
+  padding-right: 10px;
+}
+
+/* Optional: Add responsive styles for smaller screens */
+@media screen and (max-width: 900px) {
+  .department-table {
+    padding: 10px;
+  }
+  .table th,
+  .table td {
+    padding: 10px;
+  }
+}
+
+
+

@@ -1,0 +1,39 @@
+.contact-container {
+  text-align: center;
+  margin: 2rem;
+}
+
+.contact-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info, .social-media {
+  flex: 1;
+  padding: 1rem;
+}
+
+.social-media {
+  background-color: white;
+}
+
+.icon-flex {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.icon-flex a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.icon-flex a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,37 @@
+/* File.css */
+.file-uploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.file-input-label {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.file-input-label:hover {
+  background: #2c3e50;
+}
+
+.file-input {
+  display: none;
+}
+
+.selected-file {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .file-input-label {
+    padding: 8px 16px;
+  }
+}
